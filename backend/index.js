@@ -25,7 +25,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: "https://jobportal-new-x9ne.onrender.com",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
